@@ -1,6 +1,6 @@
 
 
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
 }
 
 
-hr {
+.hr {
     border: 0;
     border-top: 1px solid black;
     width: 100%;
@@ -26,20 +26,20 @@ hr {
 }
 
 
-nav {
+.nav {
     display: flex;
     justify-content: center;
     gap: 40px;
     padding: 20px;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-nav a:hover {
+.nav a:hover {
     color: rgb(255, 74, 255);
 }
 
